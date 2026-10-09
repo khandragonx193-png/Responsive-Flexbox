@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bố cục Responsive Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header: Phần đầu trang -->
+        <header class="header">
+            <h1>MY WEBSITE</h1>
+            <p>Trang web thực hành CSS Flexbox</p>
+        </header>
+
+        <!-- Navigation: Thanh điều hướng -->
+        <nav class="navigation">
+            <a href="#home">Trang chủ</a>
+            <a href="#about">Giới thiệu</a>
+            <a href="#news">Tin tức</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+
+        <!-- Main: Nội dung chính và thanh bên -->
+        <main class="main-container" id="home">
+
+            <section class="content">
+                <h2>Nội dung chính</h2>
+
+                <article class="article" id="about">
+                    <h3>Bài viết 1</h3>
+                    <p>
+                        Đây là khu vực hiển thị nội dung chính
+                        của trang web.
+                    </p>
+                </article>
+
+                <article class="article">
+                    <h3>Bài viết 2</h3>
+                    <p>
+                        Flexbox giúp sắp xếp các phần tử linh hoạt
+                        và dễ dàng điều chỉnh bố cục.
+                    </p>
+                </article>
+
+                <article class="article" id="news">
+                    <h3>Bài viết 3</h3>
+                    <p>
+                        Bố cục có thể tự động thay đổi để phù hợp
+                        với kích thước màn hình.
+                    </p>
+                </article>
+            </section>
+
+            <!-- Sidebar: Nội dung phụ -->
+            <aside class="sidebar">
+                <h2>Sidebar</h2>
+                <div class="side-item">Tin tức mới</div>
+                <div class="side-item">Bài viết nổi bật</div>
+                <div class="side-item">Thông tin bổ sung</div>
+            </aside>
+
+        </main>
+
+        <!-- Footer: Phần cuối trang -->
+        <footer class="footer" id="contact">
+            <p>© 2026 My Website | Thực hành CSS Flexbox</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
